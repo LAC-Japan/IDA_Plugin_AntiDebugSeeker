@@ -18,9 +18,9 @@ For packed samples, running this plugin after unpacking and fixing the Import Ad
 
 Place the following three files under the plugin directory of IDA :
 
-anti_debug.config (A file containing rules for detecting anti-debugging techniques)
-anti_debug_techniques_descriptions.json (A file containing descriptions of the detected rules)
-AntiDebugSeeker.py (The anti-debugging detection program)
+1. anti_debug.config (A file containing rules for detecting anti-debugging techniques)  
+2. anti_debug_techniques_descriptions.json (A file containing descriptions of the detected rules)  
+3. AntiDebugSeeker.py (The anti-debugging detection program)  
 
 ## Usage
 
