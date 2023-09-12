@@ -82,6 +82,11 @@ The same process is then applied for searching for the third keyword.
 
 <img src="picture/AntiDebugTechnique_Section.png" alt="AntiDebugTechnique_Section" width="200"/>
 
+If you want to set a custom search range instead of using the default value,  
+you can specify 'search_range=value' at the end of the keyword you've set. This allows you to change the search range for each rule you've configured.
+
+
+
 ## List of detectable anti-debugging techniques
 
 
