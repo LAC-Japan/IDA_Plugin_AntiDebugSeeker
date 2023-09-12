@@ -66,6 +66,9 @@ Additionally, if an API specified in Anti_Debug_API is detected, the category na
 
 ## About anti_debug.config
 
+There are sections named Anti_Debug_API and Anti_Debug_Technique in the anti_debug.config file.
+In the Anti_Debug_API, you can freely create categories and add APIs that you wish to detect.
+
 ## List of detectable anti-debugging techniques
 
 
