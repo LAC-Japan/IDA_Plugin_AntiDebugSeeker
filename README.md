@@ -68,13 +68,13 @@ Additionally, if an API specified in Anti_Debug_API is detected, the category na
 
 There are sections named Anti_Debug_API and Anti_Debug_Technique in the anti_debug.config file.
 
-- ** Anti_Debug_API**  
+- **Anti_Debug_API**  
 
 you can freely create categories and add APIs that you wish to detect.
 
 <img src="picture/AntiDebugAPI_Section.png" alt="AntiDebugAPI_Section.png" width="200"/>
 
-- ** Anti_Debug_Technique**  
+- **Anti_Debug_Technique**  
 
 The basic flow of the search is as follows:  
 First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
