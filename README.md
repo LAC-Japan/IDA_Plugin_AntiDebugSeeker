@@ -59,6 +59,13 @@ click the 'Save' button to save the modifications.
 
 ## Support Functions
 
+After running the plugin, detected APIs and keywords are highlighted in different colors.
+
+![DetectionCategory_Color](picture/DetectionCategory_Color)
+
+Additionally, if an API specified in Anti_Debug_API is detected, the category name is added as a comment. Likewise, if a rule name is detected in Anti_Debug_Technique, a description of that rule is added as a comment to the first detected keyword.
+
+
 ## About anti_debug.config
 
 ## List of detectable anti-debugging techniques
