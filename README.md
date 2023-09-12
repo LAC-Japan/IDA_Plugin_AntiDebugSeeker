@@ -24,7 +24,7 @@ Place the following three files under the plugin directory of IDA :
 
 ## Usage
 
-**Ctrl + Shift + D (To launch the plugin)  **  
+**Ctrl + Shift + D (To launch the plugin)**    
 A screen named “Anti Debug Detection Results” will appear after the analysis is complete.
 
 Anti Debug Detection Results
