@@ -68,6 +68,12 @@ Additionally, if an API specified in Anti_Debug_API is detected, the category na
 ![AntiDebugAPI_Detect](picture/AntiDebugAPI_Detect.png)
 ![AntiDebugTechnique_NtGlobalFlag_Detect](picture/AntiDebugTechnique_NtGlobalFlag.png)
 
+<div style="display: flex;">
+  <img src="picture/AntiDebugAPI_Detect.png" alt="AntiDebugAPI_Detect" width="400"/>
+  <img src="picture/AntiDebugTechnique_NtGlobalFlag.png" alt="AntiDebugTechnique_NtGlobalFlag" width="400"/>
+</div>
+
+
 ## About anti_debug.config
 
 ## List of detectable anti-debugging techniques
