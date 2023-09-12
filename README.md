@@ -71,11 +71,14 @@ There are sections named Anti_Debug_API and Anti_Debug_Technique in the anti_deb
 **Anti_Debug_API**  
 you can freely create categories and add APIs that you wish to detect.
 
-**Anti_Debug_Technique**  
+![AntiDebugAPI_Section](picture/AntiDebugAPI_Section.png)
 
+**Anti_Debug_Technique**  
 The basic flow of the search is as follows:
 First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword. 
 The same process is then applied for searching for the third keyword.
+
+![AntiDebugTechnique_Section](picture/AntiDebugTechnique_Section.png)
 
 ## List of detectable anti-debugging techniques
 
