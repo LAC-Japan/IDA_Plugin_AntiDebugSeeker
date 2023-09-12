@@ -65,6 +65,8 @@ After running the plugin, detected APIs and keywords are highlighted in differen
 
 Additionally, if an API specified in Anti_Debug_API is detected, the category name is added as a comment. Likewise, if a rule name is detected in Anti_Debug_Technique, a description of that rule is added as a comment to the first detected keyword.
 
+![AntiDebugAPI_Detect](picture/AntiDebugAPI_Detect.png)
+![AntiDebugTechnique_NtGlobalFlag_Detect](picture/AntiDebugTechnique_NtGlobalFlag.png)
 
 ## About anti_debug.config
 
