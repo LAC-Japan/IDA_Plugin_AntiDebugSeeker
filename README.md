@@ -47,6 +47,8 @@ Address of the first detected keyword.
 (Address Transition)  
 By double-clicking on the detected line, you will jump to the address specified.  
 
+(picuture/Anti-Debug-Detection-Results.png)
+
 ## Support Functions
 
 ## About anti_debug.config
