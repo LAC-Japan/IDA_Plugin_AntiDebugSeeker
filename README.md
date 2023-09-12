@@ -78,7 +78,7 @@ The basic flow of the search is as follows:
 First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword. 
 The same process is then applied for searching for the third keyword.
 
-![AntiDebugTechnique_Section](picture/AntiDebugTechnique_Section.png)
+![AntiDebugTechnique_Section](picture/AntiDebugTechniqueSection.png)
 
 ## List of detectable anti-debugging techniques
 
