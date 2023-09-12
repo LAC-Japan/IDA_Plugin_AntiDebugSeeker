@@ -89,7 +89,7 @@ you can specify 'search_range=value' at the end of the keyword you've set. This 
 
 ## List of detectable anti-debugging techniques
 
-The following is a list of rule names defined in the Anti_Debug＿Technique section of the antidebug.config.  
+The following is a list of rule names defined in the Anti_Debug_Technique section of the antidebug.config.  
 
 HeapTailMarker  
 KernelDebuggerMarker  
