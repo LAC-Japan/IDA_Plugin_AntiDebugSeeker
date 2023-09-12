@@ -24,6 +24,29 @@ Place the following three files under the plugin directory of IDA :
 
 ## Usage
 
+**Ctrl + Shift + D (to launch the plugin)**
+a screen named “Anti Debug Detection Results” will appear after the analysis is complete.
+
+Anti Debug Detection Results
+
+Category Name:  
+API category name defined in the Anti_Debug_API as listed in anti_debug.config.  
+
+Possible Anti-Debug API:  
+List of detected APIs displayed.  
+
+Address:  
+Address where the detected API is being used.  
+
+Possible Anti-Debug Technique:  
+Detection name identified by the keyword defined in Anti_Debug_Technique as listed in anti_debug.config.  
+
+Address:  
+Address of the first detected keyword.  
+
+(Address Transition)  
+By double-clicking on the detected line, you will jump to the address specified.  
+
 ## Support Functions
 
 ## About anti_debug.config
