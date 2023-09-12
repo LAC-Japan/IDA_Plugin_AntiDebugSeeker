@@ -29,19 +29,19 @@ A screen named “Anti Debug Detection Results” will appear after the analysis
 
 Anti Debug Detection Results
 
-Category Name:  
+- Category Name:  
 API category name defined in the Anti_Debug_API as listed in anti_debug.config.  
 
-Possible Anti-Debug API:  
+- Possible Anti-Debug API:  
 List of detected APIs displayed.  
 
-Address:  
+- Address:  
 Address where the detected API is being used.  
 
-Possible Anti-Debug Technique:  
+- Possible Anti-Debug Technique:  
 Detection name identified by the keyword defined in Anti_Debug_Technique as listed in anti_debug.config.  
 
-Address:  
+- Address:  
 Address of the first detected keyword.  
 
 (Address Transition)  
