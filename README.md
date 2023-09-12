@@ -7,7 +7,6 @@ Through this tool, users can automatically extract potential anti-debugging meth
 
 ## Introduction
 
-This is a program for automatically identify and extract potential anti-debugging techniques used by malware and displaying them in IDA.
 The main functionalities of this plugin are as follows:
 
 - Extraction of APIs that are potentially being used for anti-debugging by the malware.
