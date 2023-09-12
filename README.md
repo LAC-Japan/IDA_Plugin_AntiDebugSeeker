@@ -66,7 +66,8 @@ Additionally, if an API specified in Anti_Debug_API is detected, the category na
 
 ## About anti_debug.config
 
-There are sections named Anti_Debug_API and Anti_Debug_Technique in the anti_debug.config file.
+This config file is a file that contains detection rules to be used in AntiDebugSeeker.py.  
+There are sections named Anti_Debug_API and Anti_Debug_Technique.  
 
 - **Anti_Debug_API**  
 
