@@ -55,6 +55,8 @@ Functionality for checking and editing the contents of anti_debug.config.
 After making changes,  
 click the 'Save' button to save the modifications.  
 
+![Edit-antidebug.config](picture/EditConfig.png)
+
 ## Support Functions
 
 ## About anti_debug.config
