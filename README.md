@@ -49,6 +49,12 @@ By double-clicking on the detected line, you will jump to the address specified.
 
 ![Anti-Debug-Detection-Results](picture/Anti-Debug-Detection-Results.png)
 
+**Ctrl + Shift + E (Config File Editing)**  
+Functionality for checking and editing the contents of anti_debug.config.  
+
+After making changes,  
+click the 'Save' button to save the modifications.  
+
 ## Support Functions
 
 ## About anti_debug.config
