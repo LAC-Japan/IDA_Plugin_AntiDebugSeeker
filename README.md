@@ -83,11 +83,51 @@ The same process is then applied for searching for the third keyword.
 <img src="picture/AntiDebugTechnique_Section.png" alt="AntiDebugTechnique_Section" width="200"/>
 
 If you want to set a **custom search range** instead of using the default value,  
-you can specify 'search_range=value' at the end of the keyword you've set.  
-This allows you to change the search range for each rule you've configured.
+you can specify 'search_range=value' at the end of the keyword you've set. This allows you to change the search range for each rule you've configured.
 
 <img src="picture/AntiDebugTechnique_Search_Range.png" alt="AntiDebugTechnique_Search_Range" width="200"/>
 
 ## List of detectable anti-debugging techniques
+
+HeapTailMarker
+KernelDebuggerMarker
+DbgBreakPoint_RET
+DbgUiRemoteBreakin_Debugger_Terminate
+PMCCheck_RDPMC
+TimingCheck_RDTSC
+SkipPrefixes_INT1
+INT2D_interrupt_check
+INT3_interrupt_check
+EXCEPTION_BREAKPOINT
+ICE_interrupt_check
+DBG_PRINTEXCEPTION_C
+TrapFlag_SingleStepException
+BeingDebugged_check
+NtGlobalFlag_check
+NtGlobalFlag_check_2
+HeapFlags
+HeapForceFlags
+Combination_of_HEAP_Flags
+Combination_of_HEAP_Flags_2
+ReadHeapFlags
+ReadHeapFlags_2
+DebugPrivileges_Check
+Opened_Exclusively_Check
+EXCEPTION_INVALID_HANDLE_1
+EXCEPTION_INVALID_HANDLE_2
+Memory_EXECUTE_READWRITE_1
+Memory_EXECUTE_READWRITE_2
+Memory_Region_Tracking
+Check_BreakPoint_Memory_1
+Check_BreakPoint_Memory_2
+Software_Breakpoints_Check
+Hardware_Breakpoints_Check
+Enumerate_Running_Processes
+ThreadHideFromDebugger
+NtQueryInformationProcess_PDPort
+NtQueryInformationProcess_PDFlags
+NtQueryInformationProcess_PDObjectHandle
+NtQuerySystemInformation_KD_Check
+
 
 
