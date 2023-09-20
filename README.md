@@ -78,6 +78,8 @@ you can freely create categories and add APIs that you wish to detect.
 
 - **Anti_Debug_Technique**  
 
+You can set between one to three keywords.
+
 The basic flow of the search is as follows:  
 First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
 The same process is then applied for searching for the third keyword.  
