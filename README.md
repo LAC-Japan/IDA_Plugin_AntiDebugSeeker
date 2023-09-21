@@ -12,7 +12,8 @@ The main functionalities of this plugin are as follows:
 - Extraction of APIs that are potentially being used for anti-debugging by the malware.
 - In addition to APIs, extraction of anti-debugging techniques based on key phrases that serve as triggers, as some anti-debugging methods cannot be comprehensively identified by API calls alone.
 
-Additionally, the file that defines the detection rules is designed to easily add keywords you want to detect. This allows analysts to easily add new detection rules or make changes.  
+Additionally, the file that defines the detection rules is designed to easily add keywords you want to detect.  
+This allows analysts to easily add new detection rules or make changes.  
   
 For packed samples, running this plugin after unpacking and fixing the Import Address Table is more effective.
 
