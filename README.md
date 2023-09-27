@@ -15,7 +15,7 @@ The main functionalities of this plugin are as follows:
 Additionally, the file that defines the detection rules is designed to easily add keywords you want to detect.  
 This allows analysts to easily add new detection rules or make changes.  
   
-For packed samples, running this plugin after unpacking and fixing the Import Address Table is more effective.
+For packed malware, running this plugin after unpacking and fixing the Import Address Table is more effective.
 
 ## Installation
 
