@@ -74,13 +74,13 @@ There are sections named Anti_Debug_API and Anti_Debug_Technique.
 
 - **Anti_Debug_API**  
 
-you can freely create categories and add APIs that you wish to detect. (exact match)  
+you can freely create categories and add APIs that you wish to detect. **(exact match)**  
 
 <img src="picture/HowToWriteAnti_Debug_API_Section.png" alt="HowToWriteAnti_Debug_API_Section" width="380"/>
 
 - **Anti_Debug_Technique**  
 
-You can set between one to three keywords. (partial match)  
+You can set between one to three keywords. **(partial match)**  
 
 The basic flow of the search is as follows:  
 First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
