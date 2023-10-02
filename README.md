@@ -86,7 +86,7 @@ The basic flow of the search is as follows:
 First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
 The same process is then applied for searching for the third keyword.  
 
-<img src="picture/HowToWriteAnti_Debug_Technique_Section.png" alt="HowToWriteAnti_Debug_Technique_Section" width="410"/>
+<img src="picture/HowToWriteAnti_Debug_Technique_Section.png" alt="HowToWriteAnti_Debug_Technique_Section" width="430"/>
 
 If you want to set a **custom search range** instead of using the default value,  
 you can specify 'search_range=value' at the end of the keyword you've set. This allows you to change the search range for each rule you've configured.
