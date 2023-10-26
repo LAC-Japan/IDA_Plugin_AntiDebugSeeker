@@ -139,4 +139,9 @@ NtQueryInformationProcess_PDObjectHandle
 NtQuerySystemInformation_KD_Check  
 
 
+## Reference
 
+I have written an article introducing this tool in Japanese. If you are interested,　　
+I would appreciate it if you could check out the URL below.
+
+[Released "AntiDebugSeeker," a tool that automatically identifies anti-debugging features from malware.](https://www.lac.co.jp/lacwatch/report/20231018_003541.html) Japanese
