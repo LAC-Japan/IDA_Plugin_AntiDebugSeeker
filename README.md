@@ -138,6 +138,9 @@ NtQueryInformationProcess_PDFlags
 NtQueryInformationProcess_PDObjectHandle  
 NtQuerySystemInformation_KD_Check  
 
+## Update
+
+Jun.24,2024 Ver1.1 Released
 
 ## Reference
 
