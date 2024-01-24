@@ -94,7 +94,7 @@ This allows you to change the search range for each rule you've configured.
 
 <img src="picture/Custom_SearchRange.png" alt="AntiDebugTechnique_Search_Range" width="380"/>
 
-## List of detectable anti-debugging techniques   
+## List of detectable anti-debugging techniques (Ver1.0)  
 
 The following is a list of rule names defined in the Anti_Debug_Technique section of the antidebug.config.  
 
