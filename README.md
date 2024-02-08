@@ -26,8 +26,8 @@ Place the following three files under the plugin directory of IDA :
 2. anti_debug_techniques_descriptions.json (A file containing descriptions of the detected rules)  
 3. AntiDebugSeeker.py (The anti-debugging detection program)
 
-From Ver1.1,
-pip install PyQt5
+From Ver1.1, PyQt5 installation is required.　　
+　pip install PyQt5
 
 ## Usage
 
