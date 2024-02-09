@@ -145,7 +145,3 @@ NtQuerySystemInformation_KD_Check
 
 Jun.24,2024 Ver1.1 Released
 
-## Reference
-
-[Released "AntiDebugSeeker," a tool that automatically identifies anti-debugging features from malware.](https://www.lac.co.jp/lacwatch/report/20231018_003541.html)  
-( in Japanese )
