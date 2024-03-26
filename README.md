@@ -2,8 +2,7 @@
 
 ## Concept
 
-This tool not only enables those with experience in malware analysis to handle anti-debugging more quickly but also those who are new to malware analysis, those facing difficulties in overcoming anti-debugging obstacles, 
-or anyone seeking an introduction to malware analysis. 
+This tool assists those who are new to malware analysis, those facing difficulties in overcoming anti-debugging obstacles, or anyone seeking an introduction to malware analysis. 
 Through this tool, users can automatically extract potential anti-debugging methods used by malware, making it easier for analysts to take appropriate action.
 
 ## Introduction
