@@ -2,6 +2,8 @@
 
 ## Introduction
 
+Through this tool, users can automatically extract potential anti-debugging methods used by malware, making it easier for analysts to take appropriate action.  
+
 The main functionalities of this plugin are as follows:
 
 - Extraction of Windows API that are potentially being used for anti-debugging by the malware  
