@@ -7,6 +7,7 @@
     "DbgUiRemoteBreakin_Debugger_Terminate": "When a debugger tries to attach to a process, the process automatically terminates.",
     "PMCCheck_RDPMC": "The RDPMC (Read Performance-Monitoring Counters) the value of the Performance Monitoring Counter (PMC) to determine if it's being debugged.",
     "TimingCheck_RDTSC": "The RDTSC (Read Time Stamp Counter) instruction can be used to perform timing checks and may be utilized in anti-debugging techniques.",
+    "Environment_TimingCheck_CPUID": "The CPUID instruction can be used as part of malware's anti-analysis features. It involves checks for analysis environments and timing checks.",
     "SkipPrefixes_INT1":"This anti-debugging method exploits how some debuggers handle the bytes 0xF3 and 0x64 as instruction prefixes. \nThey skip the prefix and don't reach the INT1 instruction (0xF1), preventing an exception from occurring.",
     "INT2D_interrupt_check": "The INT2D instruction either passes control to a debugger or increments the EIP register's value if no debugger is active. \nThis distinguishes between debugger control or normal execution.",
     "INT3_interrupt_check": "This is a debug detection mechanism using the INT 3 instruction. \nIt utilizes the fact that if the program is being debugged, the execution does not proceed to the exception handling.",
