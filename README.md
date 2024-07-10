@@ -16,7 +16,7 @@ This allows analysts to easily add new detection rules or make changes.
 For packed malware, running this plugin after unpacking and fixing the Import Address Table is more effective.  
 
 <p align="center">
-  <img src="pictures/IDA_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="600"/>
+  <img src="picture/IDA_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="600"/>
 </p>
 
 ## Installation
