@@ -72,7 +72,7 @@ Additionally, if an API specified in Anti_Debug_API is detected, the category na
 
 ![AntiDebugAPI_Technique_Detect](picture/AntiDebugAPI_Technique_Detect.png)
 
-## About anti_debug.config
+## anti_debug.config and anti_debug_techniques_descriptions.json
 
 This config file contains the detection rules that are utilized by AntiDebugSeeker.py.  
 There are sections named Anti_Debug_API and Anti_Debug_Technique.  
@@ -96,7 +96,12 @@ The same process is then applied for searching for the third keyword.
 If you want to set a **custom search range** instead of using the default value, you can specify 'search_range=value' at the end of the keyword you've set.  
 This allows you to change the search range for each rule you've configured.
 
-<img src="picture/Custom_SearchRange.png" alt="AntiDebugTechnique_Search_Range" width="380"/>
+<img src="picture/Custom_SearchRange.png" alt="AntiDebugTechnique_Search_Range" width="380"/>  
+
+anti_debug_techniques_descriptions.json contains the descriptions of the rules defined in the Anti_Debug_Technique section.  
+The values defined in this file can be referenced on the disassembly screen, allowing you to check the descriptions of the rules.  
+
+<img src="picture/anti_debug_techniques_descriptions.png" alt="anti_debug_techniques_descriptions" width="600"/>  
 
 ## List of detectable anti-debugging techniques (Ver1.0)  
 
