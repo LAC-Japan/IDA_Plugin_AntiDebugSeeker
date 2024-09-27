@@ -1,7 +1,7 @@
 # IDA_Plugin_AntiDebugSeeker
 
 Version of Ghidra  
-[here](https://github.com/LAC-Japan/Ghidra_AntiDebugSeeker)  
+[Here](https://github.com/LAC-Japan/Ghidra_AntiDebugSeeker)  
 
 ## Introduction
 
