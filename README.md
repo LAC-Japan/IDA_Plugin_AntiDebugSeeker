@@ -1,5 +1,8 @@
 # IDA_Plugin_AntiDebugSeeker
 
+Version of Ghidra  
+[here](https://github.com/LAC-Japan/Ghidra_AntiDebugSeeker)  
+
 ## Introduction
 
 Through this tool, users can automatically extract potential anti-debugging methods used by malware, making it easier for analysts to take appropriate action.  
