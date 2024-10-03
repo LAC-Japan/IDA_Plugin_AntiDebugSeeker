@@ -10,7 +10,7 @@ The main functionalities of this plugin are as follows:
 
 - Extraction of Windows API that are potentially being used for anti-debugging by the malware  
   (All subsequent API represent the Windows API)  
-- In addition to API, extraction of anti-debugging techniques based on key phrases that serve as triggers, as some anti-debugging methods cannot be comprehensively identified by API calls alone.
+- Extraction of anti-debugging techniques based on key phrases that serve as triggers, as some anti-debugging methods cannot be comprehensively identified by API calls alone.
 
 Additionally, the file that defines the detection rules is designed to easily add keywords you want to detect.  
 This allows analysts to easily add new detection rules or make changes.  
@@ -21,16 +21,20 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   <img src="picture/IDA_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="600"/>
 </p>
 
+## Requirements
+
+From Ver1.1, PyQt5 installation is required:
+```
+pip install PyQt5
+```
+
 ## Installation
 
 Place the following three files under the plugin directory of IDA :
 
-1. anti_debug.config (A file containing rules for detecting anti-debugging techniques)  
-2. anti_debug_techniques_descriptions.json (A file containing descriptions of the detected rules)  
-3. AntiDebugSeeker.py (The anti-debugging detection program)
-
-From Ver1.1, PyQt5 installation is required.  
-pip install PyQt5
+1. **anti_debug.config** (A file containing rules for detecting anti-debugging techniques)  
+2. **anti_debug_techniques_descriptions.json** (A file containing descriptions of the detected rules)  
+3. **AntiDebugSeeker.py** (The anti-debugging detection program)
 
 ## Usage
 
