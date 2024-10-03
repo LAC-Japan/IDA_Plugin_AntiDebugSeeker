@@ -83,19 +83,20 @@ Additionally, if an API specified in Anti_Debug_API is detected, the category na
 This config file contains the detection rules that are utilized by AntiDebugSeeker.py.  
 There are sections named Anti_Debug_API and Anti_Debug_Technique.  
 
-- **Anti_Debug_API**  
+**Anti_Debug_API**  
 
-you can freely create categories and add APIs that you wish to detect. **(exact match)**  
+ **(exact match)** You can freely create categories and add APIs that you wish to detect.
 
 <img src="picture/HowToWriteAnti_Debug_API_Section.png" alt="HowToWriteAnti_Debug_API_Section" width="380"/>
 
-- **Anti_Debug_Technique**  
+**Anti_Debug_Technique**  
 
-You can set between one to three keywords. **(partial match)**  
+**(partial match)** You can set between one to three keywords. 
 
 The basic flow of the search is as follows:  
-First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
-The same process is then applied for searching for the third keyword.  
+1. First, search for the first keyword.
+2. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
+3. The same process is then applied for searching for the third keyword.  
 
 <img src="picture/HowToWriteAnti_Debug_Technique_Section.png" alt="HowToWriteAnti_Debug_Technique_Section" width="430"/>
 
@@ -113,6 +114,7 @@ The values defined in this file can be referenced on the disassembly screen, all
 
 The following is a list of rule names defined in the Anti_Debug_Technique section of the antidebug.config.  
 
+```
 HeapTailMarker  
 KernelDebuggerMarker  
 DbgBreakPoint_RET  
@@ -152,6 +154,7 @@ NtQueryInformationProcess_PDPort
 NtQueryInformationProcess_PDFlags  
 NtQueryInformationProcess_PDObjectHandle  
 NtQuerySystemInformation_KD_Check  
+```
 
 ## Updated
 
