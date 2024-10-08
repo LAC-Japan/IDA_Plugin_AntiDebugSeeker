@@ -10,7 +10,7 @@ The main functionalities of this plugin are as follows:
 
 - Extraction of Windows API that are potentially being used for anti-debugging by the malware  
   (All subsequent API represent the Windows API)  
-- In addition to API, extraction of anti-debugging techniques based on key phrases that serve as triggers, as some anti-debugging methods cannot be comprehensively identified by API calls alone.
+- Extraction of anti-debugging techniques based on key phrases that serve as triggers, as some anti-debugging methods cannot be comprehensively identified by API calls alone.
 
 Additionally, the file that defines the detection rules is designed to easily add keywords you want to detect.  
 This allows analysts to easily add new detection rules or make changes.  
@@ -21,16 +21,20 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   <img src="picture/IDA_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="600"/>
 </p>
 
+## Requirements
+
+From Ver1.1, PyQt5 installation is required:
+```
+pip install PyQt5
+```
+
 ## Installation
 
 Place the following three files under the plugin directory of IDA :
 
-1. anti_debug.config (A file containing rules for detecting anti-debugging techniques)  
-2. anti_debug_techniques_descriptions.json (A file containing descriptions of the detected rules)  
-3. AntiDebugSeeker.py (The anti-debugging detection program)
-
-From Ver1.1, PyQt5 installation is required.  
-pip install PyQt5
+1. **anti_debug.config** (A file containing rules for detecting anti-debugging techniques)  
+2. **anti_debug_techniques_descriptions.json** (A file containing descriptions of the detected rules)  
+3. **AntiDebugSeeker.py** (The anti-debugging detection program)
 
 ## Usage
 
@@ -79,19 +83,20 @@ Additionally, if an API specified in Anti_Debug_API is detected, the category na
 This config file contains the detection rules that are utilized by AntiDebugSeeker.py.  
 There are sections named Anti_Debug_API and Anti_Debug_Technique.  
 
-- **Anti_Debug_API**  
+**Anti_Debug_API**  
 
-you can freely create categories and add APIs that you wish to detect. **(exact match)**  
+ **(exact match)** You can freely create categories and add APIs that you wish to detect.
 
 <img src="picture/HowToWriteAnti_Debug_API_Section.png" alt="HowToWriteAnti_Debug_API_Section" width="380"/>
 
-- **Anti_Debug_Technique**  
+**Anti_Debug_Technique**  
 
-You can set between one to three keywords. **(partial match)**  
+**(partial match)** You can set between one to three keywords. 
 
 The basic flow of the search is as follows:  
-First, search for the first keyword. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
-The same process is then applied for searching for the third keyword.  
+1. First, search for the first keyword.
+2. If it is found, search within the specified number of bytes (default is 80 bytes) for the second keyword.  
+3. The same process is then applied for searching for the third keyword.  
 
 <img src="picture/HowToWriteAnti_Debug_Technique_Section.png" alt="HowToWriteAnti_Debug_Technique_Section" width="430"/>
 
@@ -109,6 +114,7 @@ The values defined in this file can be referenced on the disassembly screen, all
 
 The following is a list of rule names defined in the Anti_Debug_Technique section of the antidebug.config.  
 
+```
 HeapTailMarker  
 KernelDebuggerMarker  
 DbgBreakPoint_RET  
@@ -148,6 +154,7 @@ NtQueryInformationProcess_PDPort
 NtQueryInformationProcess_PDFlags  
 NtQueryInformationProcess_PDObjectHandle  
 NtQuerySystemInformation_KD_Check  
+```
 
 ## Updated
 
