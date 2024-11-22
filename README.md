@@ -156,7 +156,3 @@ NtQueryInformationProcess_PDObjectHandle
 NtQuerySystemInformation_KD_Check  
 ```
 
-## Updated
-
-Jun.24,2024 Ver1.1 Released
-
